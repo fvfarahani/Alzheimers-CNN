@@ -51,6 +51,7 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 </p>
 
 <h3>Classification Report</h3>
+
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
 | 0     | 0.81      | 0.96   | 0.88     | 640     |
