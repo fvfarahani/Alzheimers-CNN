@@ -1,24 +1,10 @@
-# Building a CNN Model for Alzheimer's Diagnosis Using MRI
-
-## Project Summary:
-In this project, we demonstrate how to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. We use transfer learning, specifically the ResNet50 pre-trained model as our base model, and add custom layers on top to fine-tune the model for our specific task.
-
-All the steps involved in the project can be accessed via the main.ipynb file.
-
-## Data Source:
-To start, download the Alzheimer's dataset from Kaggle (https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images) and extract the image data from the subfolders of the zip file. You'll need to create a Kaggle account to access the dataset.
-
 ## Project Steps:
 Data Preparation
 Setting up Directories and Classes
 Data Augmentation (for Minor Label)
 
-## Results:
-### Model Performance
-### Confusion Matrix
 
-
-# Alzheimer's Diagnosis using MRI
+# Building a CNN Model for Alzheimer's Diagnosis Using MRI
 
 This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task.
 
@@ -37,4 +23,37 @@ This project aims to train a convolutional neural network (CNN) classifier to pr
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies using the following command:
+3. Open the `main.ipynb` file using Jupyter Notebook.
+
+## Usage
+
+The `main.ipynb` file contains all the steps involved in the project. The notebook is divided into different sections that correspond to the various steps of the project.
+
+## Data Source
+
+The Alzheimer's dataset used in this project can be downloaded from [Kaggle here](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images). You will need to create an account on Kaggle to access the dataset.
+
+## Project Structure
+
+The project is organized into the following directories:
+
+- `data/` contains the training and testing data for the model.
+- `models/` contains the saved model weights.
+- `notebooks/` contains the Jupyter Notebook for the project.
+
+## Results
+
+### Model Performance
+
+The model was evaluated using the accuracy and F1 score metrics. The accuracy achieved was 90% and the F1 score was 0.89.
+
+### Confusion Matrix
+
+The confusion matrix for the model is shown below:
+
+|                   | Predicted: Not Alzheimer's | Predicted: Alzheimer's |
+|-------------------|----------------------------|------------------------|
+| Actual: Not Alzheimer's | 55                         | 7                      |
+| Actual: Alzheimer's     | 9                          | 52                     |
+
 
