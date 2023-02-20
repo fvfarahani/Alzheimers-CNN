@@ -8,9 +8,15 @@ Data Augmentation (for Minor Label)
 
 This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task.
 
-**The `main.ipynb` file contains all the steps involved in the project.**
+## Usage
 
-## Table of Contents
+**The `main.ipynb` file contains all the steps involved in the project.** The notebook is divided into different sections that correspond to the various steps of the project.
+
+## Data Source
+
+The Alzheimer's dataset used in this project can be downloaded from [Kaggle here](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images). You will need to create an account on Kaggle to access the dataset.
+
+## Project Steps
 
 - [Usage](#usage)
 - [Data Source](#data-source)
@@ -18,22 +24,6 @@ This project aims to train a convolutional neural network (CNN) classifier to pr
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
-
-## Usage
-
-The `main.ipynb` file contains all the steps involved in the project. The notebook is divided into different sections that correspond to the various steps of the project.
-
-## Data Source
-
-The Alzheimer's dataset used in this project can be downloaded from [Kaggle here](https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images). You will need to create an account on Kaggle to access the dataset.
-
-## Project Structure
-
-The project is organized into the following directories:
-
-- `data/` contains the training and testing data for the model.
-- `models/` contains the saved model weights.
-- `notebooks/` contains the Jupyter Notebook for the project.
 
 ## Results
 
