@@ -1,4 +1,4 @@
-# Building a CNN Model for Alzheimer's Diagnosis Using MRI
+# Alzheimer's Diagnosis Using MRI
 
 This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task.
 
