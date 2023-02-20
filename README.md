@@ -8,22 +8,16 @@ Data Augmentation (for Minor Label)
 
 This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task.
 
+** The `main.ipynb` file contains all the steps involved in the project. **
+
 ## Table of Contents
 
-- [Installation](#installation)
 - [Usage](#usage)
 - [Data Source](#data-source)
 - [Project Structure](#project-structure)
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
-- [License](#license)
-
-## Installation
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies using the following command:
-3. Open the `main.ipynb` file using Jupyter Notebook.
 
 ## Usage
 
