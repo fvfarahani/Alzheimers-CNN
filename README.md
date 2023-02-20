@@ -12,8 +12,6 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 
 ## Project Steps
 
-- [Usage](#usage)
-- [Data Source](#data-source)
 - Data Preparation
   - Setting up Directories and Classes
   - Data Augmentation (for Minor Label)
