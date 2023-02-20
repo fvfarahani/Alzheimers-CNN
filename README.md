@@ -40,7 +40,7 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 
 <h3>Confusion Matrix</h3>
 <p align="center">
-  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="60%">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="70%">
 </p>
 
 <h3>Classification Report</h3>
