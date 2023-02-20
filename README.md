@@ -20,10 +20,18 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 
 - [Usage](#usage)
 - [Data Source](#data-source)
-- [Project Structure](#project-structure)
+- Data Preparation
+  - Setting up Directories and Classes
+  - Data Augmentation (for Minor Label)
+- TensorFlow (TF) Dataset Creation
+- Building Model using Transfer Learning
+  - Setting Callbacks
+- Training the Model
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
+  - [Classification Report](#classification-report)
+- Exporting Model
 
 ## Results
 
@@ -42,11 +50,12 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
   <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="55%">
 </p>
 
-The confusion matrix for the model is shown below:
-
-|                   | Predicted: Not Alzheimer's | Predicted: Alzheimer's |
-|-------------------|----------------------------|------------------------|
-| Actual: Not Alzheimer's | 55                         | 7                      |
-| Actual: Alzheimer's     | 9                          | 52                     |
-
-
+<h3>Classification Report</h3>
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.81      | 0.96   | 0.88     | 640     |
+| 1     | 0.68      | 0.26   | 0.37     | 191     |
+|       |           |        |          |         |
+| **Accuracy** |           |        | 0.80     | 831     |
+| **Macro Avg** | 0.75      | 0.61   | 0.63     | 831     |
+| **Weighted Avg** | 0.78   | 0.80   | 0.76     | 831     |
