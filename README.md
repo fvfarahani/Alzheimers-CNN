@@ -18,11 +18,12 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 - TensorFlow (TF) Dataset Creation
 - Building Model using Transfer Learning
   - Setting Callbacks
-- Training the Model
+- Training and Validating the Model
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
   - [Classification Report](#classification-report)
+- Exporting Misclassified Images
 - Exporting Model
 
 ## Results
