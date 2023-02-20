@@ -28,8 +28,7 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 ## Results
 
 ### Model Performance
-
-The model was evaluated using the accuracy and F1 score metrics. The accuracy achieved was 90% and the F1 score was 0.89.
+![alt text](https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/model_performance.png?raw=true)
 
 ### Confusion Matrix
 
