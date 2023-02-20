@@ -27,20 +27,19 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 
 ## Results
 
-### Sample MRIs
-![alt text](https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/sample_MRIs.png?raw=true)
-
-### Model Performance
-![alt text](https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/model_performance.png?raw=true)
+<h3>Sample MRIs</h3>
+<p align="center">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/sample_MRIs.png?raw=true" alt="Sample MRIs" width="100%">
+</p>
 
 <h3>Model Performance</h3>
 <p align="center">
-  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/model_performance.png?raw=true" alt="Model Performance" width="50%">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/model_performance.png?raw=true" alt="Model Performance" width="100%">
 </p>
 
 <h3>Confusion Matrix</h3>
 <p align="center">
-  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="50%">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="60%">
 </p>
 
 The confusion matrix for the model is shown below:
