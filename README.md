@@ -33,9 +33,6 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 ### Model Performance
 ![alt text](https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/model_performance.png?raw=true)
 
-### Confusion Matrix
-![alt text](https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true)
-
 <h3>Confusion Matrix</h3>
 <p align="center">
   <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/confusion_matrix.png?raw=true" alt="Confusion Matrix" width="50%">
