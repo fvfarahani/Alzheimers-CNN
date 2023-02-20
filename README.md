@@ -6,7 +6,7 @@ In this project, we demonstrate how to train a convolutional neural network (CNN
 All the steps involved in the project can be accessed via the main.ipynb file.
 
 ## Data Source:
-RSNA Pneumonia Detection Challenge  (https://www.kaggle.com/c/rsna-pneumonia-detection-challenge)
+To start, download the Alzheimer's dataset from Kaggle (https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images) and extract the image data from the subfolders of the zip file. You'll need to create a Kaggle account to access the dataset.
 
 ## Project Steps:
 
