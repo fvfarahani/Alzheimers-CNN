@@ -21,6 +21,7 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 - Training and Validating the Model
 - Exporting Model
 - Exporting Misclassified Images
+- Explainability Analysis
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
