@@ -19,12 +19,14 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 - Building Model using Transfer Learning
   - Setting Callbacks
 - Training and Validating the Model
+- Exporting Model
+- Exporting Misclassified Images
 - [Results](#results)
   - [Model Performance](#model-performance)
   - [Confusion Matrix](#confusion-matrix)
   - [Classification Report](#classification-report)
-- Exporting Misclassified Images
-- Exporting Model
+  - [Explainers Heatmaps](#explainers-heatmaps)
+  - [Activation Maps](#activation-maps)
 
 ## Results
 
@@ -53,3 +55,14 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 | **Accuracy** |           |        | 0.80     | 831     |
 | **Macro Avg** | 0.75      | 0.61   | 0.63     | 831     |
 | **Weighted Avg** | 0.78   | 0.80   | 0.76     | 831     |
+
+
+<h3>Explainers Heatmaps</h3>
+<p align="center">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/heatmaps.png?raw=true" alt="Explainers Heatmaps" width="100%">
+</p>
+
+<h3>Activation Maps</h3>
+<p align="center">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/activations.png?raw=true" alt="Activation Maps" width="100%">
+</p>
