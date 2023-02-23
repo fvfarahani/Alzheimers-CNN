@@ -1,6 +1,6 @@
 # Alzheimer's Diagnosis Using MRI
 
-This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task.
+This project aims to train a convolutional neural network (CNN) classifier to predict whether an MRI scan of a patient shows signs of Alzheimer's disease or not. Transfer learning is used, specifically the ResNet50 pre-trained model as the base model, and custom layers are added on top to fine-tune the model for our specific task. We also performed explainability analysis using tf_explain library to visualize important features and regions in input images that our model relies on to make predictions.
 
 ## Usage
 
