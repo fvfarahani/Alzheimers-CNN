@@ -64,5 +64,5 @@ The Alzheimer's dataset used in this project can be downloaded from [Kaggle here
 
 <h3>Activation Maps</h3>
 <p align="center">
-  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/activations.png?raw=true" alt="Activation Maps" width="100%">
+  <img src="https://github.com/fvfarahani/Alzheimers-CNN/blob/main/Figures/activations.png?raw=true" alt="Activation Maps" width="90%">
 </p>
